@@ -1,0 +1,11 @@
+liste = []
+eingabe = ""
+while (eingabe != "-1"):
+    eingabe = input("Bitte ein ZAhl eingaben") 
+    zahl = int(eingabe)
+    liste.append(zahl)
+
+print("ende.")
+
+liste.sort()
+print(liste)
