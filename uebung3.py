@@ -12,6 +12,6 @@ print ()
 print ("Ergebnis: ")
 #print (zahlen)
 
-for i in range(1,7):
+for i in range(1, 37):
     print (i,"er :", zahlen.count(i))
    
